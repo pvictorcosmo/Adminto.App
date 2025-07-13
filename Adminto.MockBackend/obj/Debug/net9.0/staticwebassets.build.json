@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "m0w35LZEMG2Qx5iSws47b7MWIwCwPriBxQOwL/Mr1zk=",
+  "Source": "Adminto.MockBackend",
+  "BasePath": "_content/Adminto.MockBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

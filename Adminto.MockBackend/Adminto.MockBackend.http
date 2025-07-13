@@ -1,0 +1,6 @@
+@Adminto.MockBackend_HostAddress = http://localhost:5072
+
+GET {{Adminto.MockBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

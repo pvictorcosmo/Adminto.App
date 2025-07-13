@@ -1,0 +1,89 @@
+﻿@page "/"
+
+@using Adminto.UI.Toolkit.BaseUI.Card
+@using Adminto.UI.Toolkit.Charts.Area.BasicAreaChart
+@using Adminto.UI.Toolkit.Charts.Area.SplineAreaChart
+@using Adminto.UI.Toolkit.Charts.Pie.SimplePieChart
+@using Adminto.UI.Toolkit.Charts.Funnel.FunnelChart
+
+<PageTitle>Home</PageTitle>
+
+<div class="dashboard-grid">
+   
+    <div class="grid-row">
+        <div class="grid-item">
+            <Card Title="Gráfico de área">
+                <BasicAreaChart
+                    Prices="@(new decimal[] { 20000, 22000, 18000, 30000 })"
+                    Dates="@(new[] { "01 Jan 2024", "01 Feb 2024", "01 Mar 2024", "01 Apr 2024" })"
+                    Colors="@(new[] { "#000000" })"/>
+            </Card>
+        </div>
+        <div class="grid-item">
+            <Card Title="Gráfico de área">
+                <SplineAreaChart
+                    Series="@(new[]
+                            {
+                                new ChartSeries
+                                {
+                                    name = "STOCK ABC",
+                                    prices = new[] { 1000.0, 1200.0, 1500.0 },
+                                    dates = new[] { "Jan", "Feb", "Mar" }
+                                },
+                                new ChartSeries
+                                {
+                                    name = "STOCK XYZ",
+                                    prices = new[] { 8000.0, 9000.0, 10000.0 },
+                                    dates = new[] { "2024-01-01", "2024-02-01", "2024-03-01" }
+                                }
+                            })"
+                    Colors="@(new[] { "#5b69bc", "#35b8e0" })"/>
+            </Card>
+        </div>
+        <div class="grid-item">
+            <Card Title="Gráfico de pizza">
+                <SimplePieChart Numbers="@(new decimal[] { 44, 55, 41, 17, 15 })"
+                                Labels="@(new[] { "Series 1", "Series 2", "Series 3", "Series 4", "Series 5" })"
+                                Colors="@(new[] { "#5b69bc", "#35b8e0", "#10c469", "#fa5c7c", "#e3eaef" })"
+                                PieType="TypePieChart.Donut"/>
+            </Card>
+        </div>
+    </div>
+
+
+    <div class="grid-full">
+        <Card Title="Gráfico de funil">
+            <FunnelChart Numbers="@(new decimal[] { 500, 200, 100, 50, 20, 2 })"
+                         Labels="@(new[] { "Cliente frio", "Cliente quente", "Cliente quase convertido", "Cliente em dúvida", "Cliente convertido", "Venda fechada" })"
+                         Colors="@(new[] { "#5b69bc", "#35b8e0", "#5b69bc", "#35b8e0", "#5b69bc", "#35b8e0" })"/>
+        </Card>
+    </div>
+</div>
+
+<style>
+    .dashboard-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 16px;
+        width: 100%;
+    }
+
+    .grid-row {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 16px;
+    }
+
+    .grid-item {
+        background-color: grey;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        border-radius: 8px;
+    }
+
+    .grid-full {
+        width: 100%;
+    }
+</style>

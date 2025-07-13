@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Paulin\\Documents\\Projects\\Adminto.App\\Adminto.App.ERP\\Adminto.App.ERP\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Adminto.App.ERP.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Adminto.App.ERP.ewrrac1lo3.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Paulin\\Documents\\Projects\\Adminto.App\\Adminto.App.ERP\\Adminto.App.ERP\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Paulin\\Documents\\Projects\\Adminto.App\\Adminto.App.ERP\\Adminto.App.ERP\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Adminto.App.ERP.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Adminto.App.ERP.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Adminto.App.ERP.props",
+      "PackagePath": "build\\Adminto.App.ERP.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Adminto.App.ERP.props",
+      "PackagePath": "buildMultiTargeting\\Adminto.App.ERP.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Adminto.App.ERP.props",
+      "PackagePath": "buildTransitive\\Adminto.App.ERP.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

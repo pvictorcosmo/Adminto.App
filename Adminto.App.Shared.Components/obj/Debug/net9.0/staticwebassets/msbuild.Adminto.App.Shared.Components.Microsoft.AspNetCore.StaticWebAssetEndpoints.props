@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Adminto.App.Shared.Components/Adminto.App.Shared.Components.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Adminto.App.Shared.Components.nw7ssftbea.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BSC3LGK1h37uxhwSApn4GvIDQyWUTZ3MpSNGSRshztg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"317"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022\u002BSC3LGK1h37uxhwSApn4GvIDQyWUTZ3MpSNGSRshztg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 07 Jul 2025 20:14:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Adminto.App.Shared.Components/Adminto.App.Shared.Components.nw7ssftbea.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Adminto.App.Shared.Components.nw7ssftbea.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nw7ssftbea"},{"Name":"integrity","Value":"sha256-\u002BSC3LGK1h37uxhwSApn4GvIDQyWUTZ3MpSNGSRshztg="},{"Name":"label","Value":"_content/Adminto.App.Shared.Components/Adminto.App.Shared.Components.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"317"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022\u002BSC3LGK1h37uxhwSApn4GvIDQyWUTZ3MpSNGSRshztg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 07 Jul 2025 20:14:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

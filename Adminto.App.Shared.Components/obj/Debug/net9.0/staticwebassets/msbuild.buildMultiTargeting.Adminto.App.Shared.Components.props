@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Adminto.App.Shared.Components.props" />
+</Project>
