@@ -15,9 +15,6 @@
         <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="9.0.4"/>
     </ItemGroup>
     <ItemGroup>
-        <ProjectReference Include="..\Adminto.UI.Toolkit\Adminto.UI.Toolkit.csproj"/>
-    </ItemGroup>
-    <ItemGroup>
         <_ContentIncludedByDefault Remove="wwwroot\pages\apps-calendar.js"/>
         <_ContentIncludedByDefault Remove="wwwroot\pages\apps-chat.js"/>
         <_ContentIncludedByDefault Remove="wwwroot\pages\apps-email.js"/>

@@ -199,7 +199,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Adminto.UI.Toolkit": "1.0.0",
           "Microsoft.AspNetCore.Components.Web": "9.0.4"
         },
         "compile": {
@@ -207,19 +206,6 @@
         },
         "runtime": {
           "bin/placeholder/Adminto.App.Shared.Components.dll": {}
-        }
-      },
-      "Adminto.UI.Toolkit/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "9.0.4"
-        },
-        "compile": {
-          "bin/placeholder/Adminto.UI.Toolkit.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Adminto.UI.Toolkit.dll": {}
         }
       }
     }
@@ -547,17 +533,11 @@
       "type": "project",
       "path": "../Adminto.App.Shared.Components/Adminto.App.Shared.Components.csproj",
       "msbuildProject": "../Adminto.App.Shared.Components/Adminto.App.Shared.Components.csproj"
-    },
-    "Adminto.UI.Toolkit/1.0.0": {
-      "type": "project",
-      "path": "../Adminto.UI.Toolkit/Adminto.UI.Toolkit.csproj",
-      "msbuildProject": "../Adminto.UI.Toolkit/Adminto.UI.Toolkit.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Adminto.App.Shared.Components >= 1.0.0",
-      "Adminto.UI.Toolkit >= 1.0.0"
+      "Adminto.App.Shared.Components >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -588,9 +568,6 @@
           "projectReferences": {
             "C:\\Users\\Paulin\\Documents\\Projects\\Adminto.App\\Adminto.App.ERP\\Adminto.App.Shared.Components\\Adminto.App.Shared.Components.csproj": {
               "projectPath": "C:\\Users\\Paulin\\Documents\\Projects\\Adminto.App\\Adminto.App.ERP\\Adminto.App.Shared.Components\\Adminto.App.Shared.Components.csproj"
-            },
-            "C:\\Users\\Paulin\\Documents\\Projects\\Adminto.App\\Adminto.App.ERP\\Adminto.UI.Toolkit\\Adminto.UI.Toolkit.csproj": {
-              "projectPath": "C:\\Users\\Paulin\\Documents\\Projects\\Adminto.App\\Adminto.App.ERP\\Adminto.UI.Toolkit\\Adminto.UI.Toolkit.csproj"
             }
           }
         }

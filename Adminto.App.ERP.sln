@@ -4,8 +4,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adminto.App.ERP", "Adminto.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adminto.App.Shared.Components", "Adminto.App.Shared.Components\Adminto.App.Shared.Components.csproj", "{F2BF721E-E228-4074-823D-68EFC4D62C79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adminto.UI.Toolkit", "Adminto.UI.Toolkit\Adminto.UI.Toolkit.csproj", "{9E8EA195-9615-43DF-8964-AAB229C077E9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adminto.MockBackend", "Adminto.MockBackend\Adminto.MockBackend.csproj", "{4ADA61AE-586E-4A18-8A1E-8847D0C5A0BB}"
 EndProject
 Global
@@ -22,10 +20,6 @@ Global
 		{F2BF721E-E228-4074-823D-68EFC4D62C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2BF721E-E228-4074-823D-68EFC4D62C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2BF721E-E228-4074-823D-68EFC4D62C79}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9E8EA195-9615-43DF-8964-AAB229C077E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9E8EA195-9615-43DF-8964-AAB229C077E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9E8EA195-9615-43DF-8964-AAB229C077E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9E8EA195-9615-43DF-8964-AAB229C077E9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4ADA61AE-586E-4A18-8A1E-8847D0C5A0BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4ADA61AE-586E-4A18-8A1E-8847D0C5A0BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4ADA61AE-586E-4A18-8A1E-8847D0C5A0BB}.Release|Any CPU.ActiveCfg = Release|Any CPU

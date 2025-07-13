@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Adminto.App.ERP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c67ce591ce854b5c3b6d637f016bcf8dc339ce4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Adminto.App.ERP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Adminto.App.ERP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

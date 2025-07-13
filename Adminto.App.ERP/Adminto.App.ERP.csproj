@@ -7,7 +7,6 @@
     </PropertyGroup>
     <ItemGroup>
         <ProjectReference Include="..\Adminto.App.Shared.Components\Adminto.App.Shared.Components.csproj"/>
-        <ProjectReference Include="..\Adminto.UI.Toolkit\Adminto.UI.Toolkit.csproj"/>
     </ItemGroup>
     <ItemGroup>
         <_ContentIncludedByDefault Remove="wwwroot\pages\apps-calendar.js"/>
